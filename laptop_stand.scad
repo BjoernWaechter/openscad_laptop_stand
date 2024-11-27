@@ -8,19 +8,19 @@ Back_Height = 150; // [10:1:400]
 // The depth of the laptop from front to back
 Laptop_Depth = 230; // [10:1:400]
 // Height of the laptop in the front so it fits under the nose
-Laptop_Height = 20; // [1:1:50]
+Laptop_Height = 18; // [1:1:50]
 // Width of the left and right feet
 Feet_Width = 20;    // [10:1:50]
 
 /* [ Other Dimensions ] */
 nose_thickness = 4;   // [1:1:20]
 nose_length = 6;      // [1:1:20]
-frame_thickness = 6;  // [4:1:50]
+frame_thickness = 3;  // [4:1:50]
 circle_diameter = 10; // [2:1:50]
 circle_distance = 2;  // [1:1:20]
 
 /* [ Advanced ] */
-frame_thickness_back = 15; // [6:1:30]
+frame_thickness_back = 12; // [6:1:30]
 dovetail_height=20;        // [5:1:40]
 dovetail_min_width=3;      // [1:1:10]
 dovetail_max_width=6;      // [2:1:15]
