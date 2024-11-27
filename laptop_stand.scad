@@ -13,19 +13,30 @@ Laptop_Height = 18; // [1:1:50]
 Feet_Width = 20;    // [10:1:50]
 
 /* [ Other Dimensions ] */
+// Thickness of the nose holding the front of the laptop
 nose_thickness = 4;   // [1:1:20]
+// Length of the nose holding the front of the laptop
 nose_length = 6;      // [1:1:20]
+// Thickness of the frame.
 frame_thickness = 3;  // [4:1:50]
+// Diameter of the holes
 circle_diameter = 10; // [2:1:50]
+// Distance from one hole to the next
 circle_distance = 2;  // [1:1:20]
 
 /* [ Advanced ] */
+// Thickness of the back frame. Has to big greater than "dovetail max width"
 frame_thickness_back = 12; // [6:1:30]
+// Height of the dovtail and the connectors
 dovetail_height=20;        // [5:1:40]
+// Min width of the dovetail and thickness of the connectors
 dovetail_min_width=3;      // [1:1:10]
+// Max width of the dovtail
 dovetail_max_width=6;      // [2:1:15]
+// depth of the dovtail. Should be less than "Feet Width"
 dovetail_depth=6;          // [3:1:20]
-dovetail_clearance=0.2;
+// Clearance between the male and female part of the dove tail
+dovetail_clearance=0.2;    // [0:0.01:0.5]
 
 
 
