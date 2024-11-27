@@ -40,17 +40,13 @@ dovetail_clearance=0.2;    // [0:0.01:0.5]
 
 
 
-echo(angle);
 angle = asin((Back_Height-Front_Height)/Laptop_Depth);
 feet_depth = Laptop_Depth*cos(angle);
 steigung = (Back_Height-Front_Height)/feet_depth;
 
-echo(feet_depth);
 circle_count_x = floor((feet_depth-frame_thickness_back-frame_thickness)/(circle_diameter+circle_distance));
 circle_count_y = floor((Back_Height-(2*frame_thickness))/(circle_diameter+circle_distance));
 
-echo(circle_count_x)
-echo(angle);
 
 dv_max_incl_clear=dovetail_max_width+dovetail_clearance;
 dv_min_incl_clear=dovetail_min_width+dovetail_clearance;
