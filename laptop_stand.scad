@@ -2,11 +2,11 @@
 // Total width. Distance from left to right
 Total_Width = 250; // [10:1:400]
 // Height of the laptops bearing in the front
-Front_Height = 150; // [10:1:400]
+Front_Height = 20; // [10:1:400]
 // Height of the laptops bearing in the back
 Back_Height = 150; // [10:1:400]
 // The depth of the laptop from front to back
-Laptop_Depth = 196; // [10:1:400]
+Laptop_Depth = 230; // [10:1:400]
 // Height of the laptop in the front so it fits under the nose
 Laptop_Height = 18; // [1:1:50]
 // Width of the left and right feet
